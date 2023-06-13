@@ -1,6 +1,6 @@
 # JfsCounter
 <p align="center">
-   <img src="jfspc.png" width="128">
+   <img src="doku/jfspc.png" width="128">
 </p>
 
 ## About
