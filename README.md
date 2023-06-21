@@ -5,6 +5,10 @@
 
 ## About
 A pulse counter based on a ESP32 with a OLED display. It counts the nummer of pulses during a fixed time frame.The idea was to build a small and cheap counter as an interface between a device witch genenerates 5V TTL an a GUI that runs on a PC.
+
+
+For more information please visit my [page](https://science.jefro.de). There is a windows installer available.
+
 ``` mermaid
 flowchart LR
   id[TTL sending device]
