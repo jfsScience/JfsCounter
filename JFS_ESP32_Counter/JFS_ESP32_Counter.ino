@@ -19,6 +19,7 @@
 #include "stdio.h"                                                        // Library STDIO
 #include "driver/ledc.h"                                                  // Library ESP32 LEDC
 #include "driver/pcnt.h"                                                  // Library ESP32 PCNT
+#include "soc/pcnt_struct.h"                                              // for Arduino > 2.0
 #include "SSD1306.h"                                                      // from Esp8266 and Esp32 OLED driver .. ThingPulse, Fabrice Weinberg
                                                                           // https://github.com/ThingPulse/esp8266-oled-ssd1306
 SSD1306  display(0x3c, 5, 4);
