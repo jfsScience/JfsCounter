@@ -7,6 +7,9 @@ from serial.tools.list_ports import comports
 import pyqtgraph as pg
 import traceback
 import gui
+os.environ["QTWEBENGINE_DISABLE_GPU"] = "1"
+os.environ["QTWEBENGINE_CHROMIUM_FLAGS"] = "--disable-gpu"
+os.environ["QTWEBENGINE_ForceSoftwareRendering"] = "1"
 
 class MainWindow(QtWidgets.QMainWindow, gui.Ui_MainWindow):
     def __init__(self):
