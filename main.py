@@ -190,12 +190,14 @@ class MainWindow(QtWidgets.QMainWindow, gui.Ui_MainWindow):
         self.esp32_serial.write(sendStr.encode('utf-8'))
         self.esp32_serial.flushInput()
 
-    def testLauf(self,state):
-        if state == QtCore.Qt.Checked:
-            self.thdx[1] = ThC_2(port = self.esp32_serial)
+    def testLauf(self, state):
+        if self.ui.checkBox.isChecked():  # True/False-API nutzen
+            self.thdx[1] = ThC_2(port=self.esp32_serial)
             self.threadpool.start(self.thdx[1])
         else:
-            self.thdx[1].stop()
+            if 1 in self.thdx and self.thdx[1] is not None:
+                self.thdx[1].stop()
+
 
     def thread_finished(self, th):
         print("Your thread has completed. Now terminating..")
