@@ -98,5 +98,5 @@ Git (optional, if cloning the repository)
 ## Thanks 
 
 - This program is based the ESP32 Frequency Meter by Rui Viana and Gustavo Murta august/2020 [link](https://blog.eletrogate.com/esp32-frequencimetro-de-precisao)
-- PyShine installer instructions [pyshine](https://www.youtube.com/watch?v=JjtqLPbh9-o)
+- thanks to [pyshine](https://www.youtube.com/watch?v=JjtqLPbh9-o)
 
