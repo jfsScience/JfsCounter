@@ -29,52 +29,44 @@ The programmcode ** JFS_ESP32_Counter.ino ** is complide and uploaded via the Ar
 <p align="left">
    <img src="doku/arduinoIDE.jpg" width="800">
 </p>
-## PC Software Installation Guide using Virtual Environment
+
+##  PC Software Installation Guide using Virtual Environment
 This guide explains how to install the JfsCounter PC software using Python Virtual Environment and requirements.txt.
 
-Prerequisites
+### Prerequisites
 Python 3.7 or higher installed
 
 pip (usually installed with Python)
 
 Git (optional, if cloning the repository)
 
-Installation Steps
-Download the project
+### Installation Steps
+- Download the project
 
-Either clone the repository:
+   - Either clone the repository:
 
-bash
-git clone https://github.com/your_repository/JfsCounter.git
-cd JfsCounter
-Or download and extract the ZIP file
+   -   git clone https://github.com/your_repository/JfsCounter.git
+   - cd JfsCounter
+- Or download and extract the ZIP file
 
-Create a virtual environment
+### Create a virtual environment
 
-bash
-python -m venv venv
-Activate the virtual environment
+- python -m venv venv
+### Activate the virtual environment
 
-Windows:
+- Windows:
 
-bash
-venv\Scripts\activate
-Linux/MacOS:
+   - venv\Scripts\activate
+- Linux/MacOS:
 
-bash
-source venv/bin/activate
-Install dependencies
+   - source venv/bin/activate
+### Install dependencies
 
-bash
-pip install -r requirements.txt
-If requirements.txt doesn't exist, you can create it or use these commands:
+- pip install -r requirements.txt<br>
 
-bash
-pip install pyserial numpy pyqtgraph PyQt5
-Run the program
+### Run the program
 
-bash
-python counter.py
+- python counter.py
 
 ## Hardware
 ### Finished Device
