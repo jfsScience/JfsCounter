@@ -45,7 +45,7 @@ Git (optional, if cloning the repository)
 
    - Either clone the repository:
 
-   -   git clone https://github.com/your_repository/JfsCounter.git
+   -   git clone https://github.com/jfsScience/JfsCounter.git
    - cd JfsCounter
 - Or download and extract the ZIP file
 
